@@ -1,5 +1,5 @@
 class AmazonScrapper:
-    import BeautifulSoup as bs
+    from bs4 import BeautifulSoup
     from selenium import webdriver
     from selenium.webdriver import ChromeOptions
     import pandas
